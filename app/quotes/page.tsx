@@ -7,6 +7,7 @@ export default function QuotesPage() {
     return (
         <div>
         <h1 className="text-[2.5rem] font-bold text-green mb-6">Notable Quotes</h1>
+        <br/>
 
         {quotes.map((quote, index) => (
             <figure key={index} className="mt-10">
