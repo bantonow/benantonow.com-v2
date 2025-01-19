@@ -1,6 +1,7 @@
 import '@/app/ui/global.css';
 import { inconsolata } from '@/app/ui/fonts'
 import Footer from '@/app/ui/Footer'
+import { Analytics } from "@vercel/analytics/react"
 
 export default function RootLayout({
   children,
@@ -27,6 +28,7 @@ export default function RootLayout({
         </main>
         {/* Footer at the bottom */}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

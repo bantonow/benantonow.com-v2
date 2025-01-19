@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import { TextScrambleLink } from "./ui/TextScrambleLink";
 import { useState } from 'react';
 
