@@ -76,10 +76,10 @@ export const quotes: Quote[] = [
         author: "Ralph Waldo Emerson",
         text: `One of the illusions is that the present hour is not the critical, decisive hour. Write it on your heart that every day is the best day of the year.`,
     },
-    {
-        author: "Fight Club",
-        text: `You met me at a very strange time in my life.`,
-    },
+    // {
+    //     author: "Fight Club",
+    //     text: `You met me at a very strange time in my life.`,
+    // },
     {
         author: "Isaac Newton",
         text: `If others would think as hard as I did, then they would get similar results.`,
@@ -104,5 +104,4 @@ export const quotes: Quote[] = [
         author: "Lemony Snicket",
         text: `How to write a good thank you note<br><br>1. Do not start with the thank you.<br>2. Start with any other  sentence. If you first say, "Thank you for the nice sweater," you can't  imagine what to write next. Say, "It was so wonderful to come home from  school to find this nice sweater. Thank you for thinking of me on Arbor  Day."<br>3. Then you're done.<br><br>I recommend learning how to write a very good thank-you note. A child  who can write a nice thank-you note can turn into a cocaine dealer five  years later and be remembered as the child who wrote nice thank-you notes.`,
     },
-
 ];
