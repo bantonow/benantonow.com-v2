@@ -46,9 +46,9 @@ export default function Home() {
           border-2
           border-[#006A4E]
           text-[#006A4E]
-          text-base
-          py-2
-          px-4
+          text-l
+          py-2.5
+          px-5
           rounded
           cursor-pointer
           transition-colors
