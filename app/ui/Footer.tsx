@@ -14,7 +14,7 @@ export default function Footer() {
     { label: "Work", href: "/resume.pdf" },
     { label: "Twitter", href: "https://x.com/benantonow" },
     { label: "GitHub", href: "https://github.com/bantonow" },
-    { label: "LinkedIn", href: "https://www.TextScrambleLinkedin.com/in/benantonow/" }
+    { label: "LinkedIn", href: "https://www.Linkedin.com/in/benantonow/" }
   ];
 
   return (
