@@ -108,4 +108,8 @@ export const quotes: Quote[] = [
         author: "Paul Graham",
         text: `You have to like what you do enough that the concept of 'spare time' seems mistaken.`
     },
+    {
+        author: "Robert J. Hanlon",
+        text: `Never attribute to malice that which is adequately explained by stupidity.`
+    },
 ];
