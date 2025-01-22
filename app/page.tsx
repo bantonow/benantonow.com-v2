@@ -21,7 +21,7 @@ export default function Home() {
             <p>I worked as a Freelance Software Developer for <TextScrambleLink href="https://www.focus4democracy.org/">Focus for Democracy</TextScrambleLink>, a nonprofit dedicated to empowering political donors to make the most impactful contributions possible to strengthen democracy. I wrote code to help them raise more money.</p>
             <p>I&apos;m also the Technical Product Manager for the <TextScrambleLink href="https://www.michiganfashionmediasummit.com/">Michigan Fashion Media Summit</TextScrambleLink>, a student-run organization that organizes the largest collegiate conference for students interested in working in fashion. This past year we had more than 600 attendees. Every year it gets better (somehow).</p>
             <p>In my free time I love to read, ride my bike, do yoga, watch movies, cook, and do the NYT Crossword. I nerd out about public transit, font choices, and art.</p>
-            <p>Feel free to reach out to me via email: antonow [at] umich [dot] edu. Always happy to chat :).</p>
+            <p>Feel free to reach out to me via email: lastname [at] umich [dot] edu. Always happy to chat :).</p>
           </div>
         </div>
       ) : (
@@ -34,6 +34,7 @@ export default function Home() {
             <li className="mt-4"><strong>-</strong> A few organizations have been kind enough employ me, most recently a health-tech spin-off from {' '}<TextScrambleLink href="https://jupyter.org/">Project Jupyter</TextScrambleLink>. More{' '}<TextScrambleLink href="/resume.pdf">here</TextScrambleLink>.</li>
             <li className="mt-4"><strong>-</strong> At U of M, I&apos;m also involved in{' '}<TextScrambleLink href="https://v1michigan.com/">V1</TextScrambleLink>, {' '}<TextScrambleLink href="https://www.michiganfashionmediasummit.com/">MFMS</TextScrambleLink>, and {' '}<TextScrambleLink href="https://alphathetadeltaumich.org/">ATD</TextScrambleLink>.</li>
             <li className="mt-4"><strong>-</strong> I love reading, riding my bike, yoga, legos, movies, puzzles, public transit, fonts, art, etc.</li>
+            <li className="mt-4"><strong>-</strong> Email: lastname [at] umich [dot] edu</li>
           </ul>
         </div>
       )}
