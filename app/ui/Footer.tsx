@@ -21,7 +21,16 @@ export default function Footer() {
     <p className="mt-6">
       {links.map((link, index) => (
         <span key={link.href}>
-          <span className={pathname === link.href ? "underline" : ""}>
+          <span className={
+            link.href === "/"
+              ? pathname === "/" 
+                ? "underline"
+                : ""
+              : pathname.startsWith(link.href) 
+              ? "underline"
+              : ""
+            }
+          >
             <TextScrambleLink href={link.href}>
               {link.label}
             </TextScrambleLink>
