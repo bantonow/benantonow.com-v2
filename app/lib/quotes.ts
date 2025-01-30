@@ -112,4 +112,9 @@ export const quotes: Quote[] = [
         author: "Robert J. Hanlon",
         text: `Never attribute to malice that which is adequately explained by stupidity.`
     },
+    {
+        author: "Russell Conwell",
+        text: `Get rich, young man, for money is power and power ought to be in the hands of good people. I say you have no right to be poor.`
+    },
+
 ];
