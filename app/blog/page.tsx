@@ -33,6 +33,10 @@ export default async function BlogPage() {
                     ))
                 )}
             </div>
+            <br/>
+            <div className='text-lg text-center'>
+                <em>Alternatively, subscribe to my <TextScrambleLink href="https://benantonow.substack.com/?r=ao6mh&utm_campaign=pub-share-checklist">Substack</TextScrambleLink></em>
+            </div>
         </div>
     );
 }
