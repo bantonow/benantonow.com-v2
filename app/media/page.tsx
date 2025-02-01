@@ -8,6 +8,7 @@ export default function MediaPage() {
             <ul className="ml-6">
                 <li>- <TextScrambleLink href="https://letterboxd.com/benantonow/">Letterboxd</TextScrambleLink></li>
                 <li>- <TextScrambleLink href="https://www.goodreads.com/user/show/185254448-ben-antonow">Goodreads</TextScrambleLink></li>
+                <li>- <TextScrambleLink href="https://www.discogs.com/user/benantonow">Discogs</TextScrambleLink></li>
             </ul>
         </div>
     )
