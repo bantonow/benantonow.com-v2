@@ -9,6 +9,7 @@ export default function MediaPage() {
                 <li>- <TextScrambleLink href="https://letterboxd.com/benantonow/">Letterboxd</TextScrambleLink></li>
                 <li>- <TextScrambleLink href="https://www.goodreads.com/user/show/185254448-ben-antonow">Goodreads</TextScrambleLink></li>
                 <li>- <TextScrambleLink href="https://www.discogs.com/user/benantonow">Discogs</TextScrambleLink></li>
+                <li>- <TextScrambleLink href="https://benantonow.substack.com/?r=ao6mh&utm_campaign=pub-share-checklist">Substack</TextScrambleLink></li>
             </ul>
         </div>
     )
