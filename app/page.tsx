@@ -12,7 +12,7 @@ export default function Home() {
         <div>
           <h1 className="text-[2.5rem] font-bold text-green mb-6">Hi, I&apos;m Benjamin Z. Antonow!</h1>
           <div className="leading-[1.4] space-y-4">
-            <p>I&apos;m studying Computer Science at the University of Michigan, in my Junior year.</p>
+            <p>I&apos;m studying computer science at the University of Michigan, in my Junior year.</p>
             <p>I&apos;m a product-minded engineer who is excited about human-computer interaction and health tech. I want to work with brilliant people who build things that improve people&apos;s physical and mental health. I&apos;m especially excited about image generation, wearables, AR/VR, and leveraging AI/ML (sorry) to make whatever we&apos;re building better.</p>
             <p>I&apos;m working at <TextScrambleLink href="https://www.color.com/">Color Health</TextScrambleLink> this summer, on the <TextScrambleLink href="https://x.com/othman/status/1895100814450139627/">oncology copilot team</TextScrambleLink>. I&apos;m also an <TextScrambleLink href="https://www.8vc.com/fellowships/">8VC fellow</TextScrambleLink>.</p>
             <p>I&apos;m currently building {' '}<TextScrambleLink href="https://www.oreen.dev/">Oreen</TextScrambleLink>, an AI diagramming tool for visual learners. Try “Explain ___ to me.”</p>
@@ -29,7 +29,7 @@ export default function Home() {
         <div>
           <h1 className="text-[2.5rem] font-bold text-green mb-6">Hi, I&apos;m Ben Antonow!</h1>
           <ul className="list-none ml-0 pl-[1em] indent-[-1em] mt-4 leading-[1.4]">
-            <li className="mt-4"><strong>-</strong> Studying {' '}CS<sup>2</sup> at the {' '}University of Michigan, in my 3rd year. I help teach{' '}<TextScrambleLink href="https://eecs280.org/">a very large CS course</TextScrambleLink>.</li>
+            <li className="mt-4"><strong>-</strong> Studying CS at the {' '}University of Michigan, in my 3rd year. I help teach{' '}<TextScrambleLink href="https://eecs280.org/">a very large CS course</TextScrambleLink>.</li>
             <li className="mt-4"><strong>-</strong> Interested in image/diagram generation, health tech/wearables, AR/VR, AI/ML. Even more interested in the overlaps.</li>
             <li className="mt-4"><strong>-</strong> Working at <TextScrambleLink href="https://www.color.com/">Color Health</TextScrambleLink> this summer. Also an <TextScrambleLink href="https://www.8vc.com/fellowships/">8VC fellow</TextScrambleLink>.</li>
             <li className="mt-4"><strong>-</strong> Currently building {' '}<TextScrambleLink href="https://www.oreen.dev/">Oreen</TextScrambleLink>, an AI tool for diagram generation.</li>
