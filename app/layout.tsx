@@ -2,6 +2,7 @@ import '@/app/ui/global.css';
 import { inconsolata } from '@/app/ui/fonts'
 import Footer from '@/app/ui/Footer'
 import { Analytics } from "@vercel/analytics/react"
+import { CSPostHogProvider, PostHogPageView } from './providers'
 
 export default function RootLayout({
   children,
@@ -22,12 +23,15 @@ export default function RootLayout({
           pt-[10vh] pb-[10vh]
         `}
       >
-        {/* Main content */}
-        <main className="max-w-3xl w-full">
-          {children}
-        </main>
-        {/* Footer at the bottom */}
-        <Footer />
+        <CSPostHogProvider>
+          <PostHogPageView />
+          {/* Main content */}
+          <main className="max-w-3xl w-full">
+            {children}
+          </main>
+          {/* Footer at the bottom */}
+          <Footer />
+        </CSPostHogProvider>
         <Analytics />
       </body>
     </html>
