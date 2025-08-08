@@ -24,11 +24,11 @@ export function CSPostHogProvider({ children }: { children: React.ReactNode }) {
     )
 }
 
-export function PostHogPageView(): JSX.Element {
+export function PostHogPageView() {
     useEffect(() => {
         // Track pageviews
         posthog?.capture('$pageview')
     }, [])
 
-    return <></>
+    return null
 }
