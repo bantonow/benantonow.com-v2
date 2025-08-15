@@ -13,6 +13,7 @@ if (typeof window !== 'undefined') {
         capture_pageleave: true,
         capture_exceptions: true,
         debug: process.env.NODE_ENV === "development",
+        autocapture: true,
     })
 }
 
