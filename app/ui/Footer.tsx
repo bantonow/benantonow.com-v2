@@ -18,26 +18,40 @@ export default function Footer() {
   ];
 
   return (
-    <p className="mt-6">
-      {links.map((link, index) => (
-        <span key={link.href}>
-          <span className={
-            link.href === "/"
-              ? pathname === "/" 
+    <div>
+      <p className="mt-6">
+        {links.map((link, index) => (
+          <span key={link.href}>
+            <span className={
+              link.href === "/"
+                ? pathname === "/" 
+                  ? "underline"
+                  : ""
+                : pathname.startsWith(link.href) 
                 ? "underline"
                 : ""
-              : pathname.startsWith(link.href) 
-              ? "underline"
-              : ""
-            }
-          >
-            <TextScrambleLink href={link.href}>
-              {link.label}
-            </TextScrambleLink>
+              }
+            >
+              <TextScrambleLink href={link.href}>
+                {link.label}
+              </TextScrambleLink>
+            </span>
+            {index < links.length - 1 && " | "}
           </span>
-          {index < links.length - 1 && " | "}
-        </span>
-      ))}
-    </p>
+        ))}
+      </p>
+      
+      <div className="mt-4 flex justify-center">
+        <a href="https://michigan-webring.vercel.app" target="_blank" rel="noopener noreferrer">
+          <img 
+            src="https://michigan-webring.vercel.app/images/michigan-logo-white.svg" 
+            alt="Michigan Webring" 
+            width="36" 
+            height="50"
+            className="hover:opacity-80 transition-opacity"
+          />
+        </a>
+      </div>
+    </div>
   );
 }
