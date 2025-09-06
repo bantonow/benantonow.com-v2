@@ -5,6 +5,5 @@
 @layer base {
     a {
       @apply text-green hover:underline hover:text-blue;
-      /* Any additional Tailwind classes you want */
     }
   }

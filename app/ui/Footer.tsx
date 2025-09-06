@@ -44,7 +44,7 @@ export default function Footer() {
       <div className="mt-4 flex justify-center">
         <a href="https://michigan-webring.vercel.app" target="_blank" rel="noopener noreferrer">
           <img 
-            src="https://michigan-webring.vercel.app/images/michigan-logo-white.svg" 
+            src="/benM.svg" 
             alt="Michigan Webring" 
             width="36" 
             height="50"
