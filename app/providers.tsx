@@ -33,3 +33,21 @@ export function PostHogPageView() {
 
     return null
 }
+
+export function ConsoleImage() {
+    useEffect(() => {
+        const img = new Image()
+        img.onload = () => {
+            const canvas = document.createElement('canvas')
+            const ctx = canvas.getContext('2d')!
+            canvas.width = img.width
+            canvas.height = img.height
+            ctx.drawImage(img, 0, 0)
+            const w = Math.min(window.innerWidth * 0.3, 300)
+            const h = img.height * (w / img.width)
+            console.log('%c ', `font-size: 1px; padding: ${h}px ${w}px; background: url(${canvas.toDataURL()}) no-repeat; background-size: contain; background-position: center; line-height: 0;`)
+        }
+        img.src = '/calvin.webp'
+    }, [])
+    return null
+}
