@@ -45,7 +45,11 @@ export function ConsoleImage() {
             ctx.drawImage(img, 0, 0)
             const w = Math.min(window.innerWidth * 0.3, 300)
             const h = img.height * (w / img.width)
-            console.log('%c ', `font-size: 1px; padding: ${h}px ${w}px; background: url(${canvas.toDataURL()}) no-repeat; background-size: contain; background-position: center; line-height: 0;`)
+            console.log(
+                '%c %c\nif you are also calvin, email me',
+                `font-size: 1px; padding: ${h}px ${w}px; background: url(${canvas.toDataURL()}); background-size: contain;`,
+                `display: block; margin-top: 6px; text-align: center;font-size: 18px; line-height: 1.4;`
+            )
         }
         img.src = '/calvin.webp'
     }, [])
